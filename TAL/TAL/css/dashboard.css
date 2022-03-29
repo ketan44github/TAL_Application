@@ -1,0 +1,312 @@
+.bg-light {
+    /* background-color: #eaeaea !important;*/
+    background-color: #388b9c !important;
+    color: white;
+}
+
+.lableWhite {
+    color: white !important;
+}
+
+.logout {
+    color: #007BFF;
+    font-size: 15px;
+}
+
+.btn-search {
+    font-size: 15px !important;
+}
+
+.top1 {
+    position: fixed;
+}
+
+.btn1:focus {
+    box-shadow: 0 0 0;
+    color: #0461c5;
+    color: white !important;
+}
+
+.btn1:hover {
+    color: #0461c5;
+}
+
+.fa-user {
+    font-size: 15px;
+}
+
+.form-control {
+    padding: 5px 10px;
+}
+
+    .form-control:focus,
+    .form-select:focus {
+        color: #212529;
+        background-color: #fff;
+        border: 1px solid #0461c5;
+        outline: 0;
+        box-shadow: 0px 0px 3px #007BFF;
+    }
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #431d57;
+    /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
+}
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+}
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.accordion-item {
+    font-size: 15px !important;
+    background-color: transparent !important;
+    border: 0px solid rgba(0, 0, 0, .125);
+}
+
+.bg-color {
+    background-color: #f8f8f8;
+}
+
+.accordion,
+.accordion-body a {
+    font-size: 15px;
+    background-color: transparent !important;
+}
+
+.nav-item :hover {
+    background-color: #431d57 !important;
+}
+
+.accordion-body a:hover {
+    width: 100%;
+    font-size: 15px;
+    background-color: #431d57 !important;
+    text-align: left;
+}
+
+.boldCenter {
+    text-align: center;
+    font-weight:bold;
+}
+
+.accordion-body {
+    padding: 0.2rem 0rem;
+    padding-left: 0.1rem;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 white;
+    /* background-color: transparent; */
+    background-color: #431d57;
+}
+
+.accordion-button {
+    padding: 1rem 1.25rem;
+    font-size: 15px;
+    color: #212529;
+    text-align: left;
+    background-color: transparent;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.line {
+    box-shadow: 0px 1px 1px #ebebeb;
+}
+
+.vertical-nav {
+    min-width: 15rem;
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
+    transition: all 0.4s;
+}
+
+.page-content {
+    width: calc(100% - 15rem);
+    margin-left: 13rem;
+    transition: all 0.4s;
+    padding-left: 4%;
+}
+
+
+/* for toggle behavior */
+
+.row-line {
+    border-bottom: 2px solid #0461c5;
+}
+
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+.table {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+
+        #sidebar.active {
+            margin-left: 0;
+        }
+
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+
+        #content.active {
+            margin-left: 17rem;
+            width: calc(100% - 17rem);
+        }
+
+    .col-btn {
+        margin-left: 45%;
+        margin-bottom: 2%;
+    }
+
+    .dp-btn {
+        padding-left: 20%;
+    }
+}
+
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+    letter-spacing: 0.1em;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+
+/* dashboard end */
+
+.r2 {
+    background-color: #f8f8f8;
+}
+
+.r1 {
+    height: 100%;
+    background-color: #f8f8f8;
+    padding: 1% 1% 0% 1%;
+}
+
+.table1 {
+    background-color: white;
+    padding: 1%;
+    /* margin: 1%; */
+}
+
+.footer {
+    font-size: 12px;
+    position: fixed;
+    bottom: 5px;
+    box-shadow: 0px -1px 0px 0px #f8f8f8;
+    padding-top: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+
+/* add zone page start */
+
+.table2 > :not(caption) > * > * {
+    padding: 0.2rem 0.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.form-edit {
+    background-color: white;
+    padding: 0% 2% 0% 2%;
+    border-radius: 8px;
+}
+
+.add-margin {
+    margin-top: 15%;
+}
+
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0 rgb(13 110 253 / 50%);
+}
+
+.page-link:focus {
+    box-shadow: 0 0 0 1px rgb(13 110 253 / 25%);
+}
+
+.div-border {
+    border: 1px solid rgb(190, 189, 189);
+    padding: 1%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+.table1 tr,
+.table1 tr td {
+    border: 0px;
+    padding: 3px;
+}
+
+.table1 td:nth-child(1) {
+    width: 20%;
+    padding: 3px;
+}
+
+.table2 td:nth-child(2),
+.table2 td:nth-child(3) {
+    width: 2%;
+    padding: 3px;
+}
+
+.del {
+    color: red;
+}
+
+.edit {
+    color: rgb(48, 46, 46);
+}
+
+.zone-title {
+    color: #007bff;
+    font-size: 26px;
+}
+
+.form-check-input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgb(13 110 253 / 25%);
+}
+
+.form-check-input {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+
+/* add zone page end */

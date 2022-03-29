@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=El+Messiri:wght@400;600;700&family=Genos:wght@400;600&family=Spartan:wght@600&display=swap');
+body {
+   
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    /*background-image: url('../images/1.jpg');*/
+    background-repeat: no-repeat;
+    background-size: 115% 100%;
+    background-position: 0% 0%;
+    height: 60vh;
+    padding:10px;
+}
+
+.right-container {
+    padding: 0% 4%;
+}
+
+.main-title {
+    margin-top: 15%;
+    font-family: 'El Messiri', sans-serif;
+    color: #2a2c94;
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: center;
+    /* text-shadow: 1px 1px 2px #2a2c94; */
+}
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    color: #2a2c94;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1vw;
+}
+
+.subtitle a {
+    text-decoration: none;
+    color: #00a650;
+    font-size: 1vw;
+}
+
+.subtitle a:hover,
+.forget-pass:hover {
+    color: #2a2c94;
+    transition: 0.5s;
+}
+
+.or {
+    text-align: center;
+    border-bottom: 2px solid rgb(69, 69, 185);
+    line-height: 0.1em;
+    margin: 25px 0;
+    color: #00a74f;
+}
+
+.or span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.email-login {
+    margin-top: 5%!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-login label {
+    color: rgb(42, 44, 148);
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.form-control:focus,
+.form-select:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #2f3192;
+    outline: 0;
+    box-shadow: 0px 0px 0.5px #ffffff3a;
+    border-radius: 8px;
+}
+
+.cta-btn {
+    background-color: rgb(42, 44, 148);
+    color: white!important;
+    padding: 10px 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+
+.cta-btn:hover {
+    background-color: #058844;
+    transition: 0.5s;
+}
+
+.forget-pass {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    /* font-weight: 600; */
+    color: #00a650;
+    font-size: 1vw;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 1vw;
+}
+
+.logo-space {
+    margin-top: 25%!important;
+    margin-bottom: 5%!important;
+}
+
+.logo-space-signup {
+    margin-top: 7%!important;
+    margin-bottom: 5%!important;
+}
+
+.logo-space-forgot-pwd {
+    margin-top: 33%!important;
+    margin-bottom: 5%!important;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+    .left-container {
+        height: 50vh;
+    }
+    .main-title {
+        vertical-align: middle;
+        margin-top: 35%;
+    }
+    input::-webkit-input-placeholder,
+    .subtitle,
+    .subtitle a,
+    .subtitle a:hover,
+    .forget-pass:hover,
+    .forget-pass {
+        font-size: 2vw;
+    }
+    .logo-space {
+        margin-top: 10%!important;
+        margin-bottom: 0%!important;
+    }
+    .logo-space-signup {
+        margin-top: 3%!important;
+        margin-bottom: 5%!important;
+    }
+    .logo-space-forgot-pwd {
+        margin-top: 1%!important;
+        margin-bottom: 5%!important;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .left-container {
+        height: 50vh;
+    }
+    .main-title {
+        vertical-align: middle;
+        margin-top: 20%!important;
+    }
+    .mt-4 {
+        margin-top: 0%;
+    }
+    input::-webkit-input-placeholder,
+    .subtitle,
+    .subtitle a,
+    .subtitle a:hover,
+    .forget-pass:hover,
+    .forget-pass {
+        font-size: 2.5vw;
+    }
+    .right-container {
+        width: 100%;
+    }
+    .forget-pass {
+        padding-bottom: 10%;
+    }
+    .logo-space {
+        margin-top: 10%!important;
+        margin-bottom: 5%!important;
+    }
+    .logo-space-signup {
+        margin-top: 0%!important;
+        margin-bottom: 5%!important;
+    }
+    .logo-space-forgot-pwd {
+        margin-top: 0%!important;
+        margin-bottom: 5%!important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .left-container {
+        width: 100%;
+        height: 70vh;
+    }
+    .right-container {
+        width: 100%;
+    }
+    input::-webkit-input-placeholder,
+    .subtitle,
+    .subtitle a,
+    .subtitle a:hover,
+    .forget-pass:hover,
+    .forget-pass {
+        font-size: 2vw;
+    }
+    .forget-pass {
+        padding-bottom: 10%;
+    }
+    .logo-space {
+        margin-top: 0%!important;
+        margin-bottom: 5%!important;
+    }
+    .logo-space-signup {
+        margin-top: 0%!important;
+        margin-bottom: 5%!important;
+    }
+    .logo-space-forgot-pwd {
+        margin-top: 0%!important;
+        margin-bottom: 5%!important;
+    }
+}
